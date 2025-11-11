@@ -16,5 +16,10 @@ namespace PrimeiroProjetoti_48
         {
             InitializeComponent();
         }
+
+        private string button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Ola turma TI 48"; 
+        }
     }
 }
